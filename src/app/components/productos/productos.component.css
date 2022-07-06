@@ -1,0 +1,26 @@
+.product img{
+   width: 120px;
+   text-align: center;
+}
+.imagen{
+    text-align: center;
+    
+}
+
+.menu{
+    text-align: center;
+    
+}
+
+.product h4{
+    font-size: 1.7em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+}
+
+
+.titulo{
+    font-family:cursive;
+    text-align: center;
+}

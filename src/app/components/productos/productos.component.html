@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+
+</head>
+<body>
+    <h1 class="titulo">PRODUCTOS</h1>
+        <div class="menu container">
+        <div class="productos">
+            <div class="row">
+                <div class="col-sm-10" >
+                <app-producto *ngFor="let producto of productos" [producto]="producto"></app-producto>
+                   
+
+            </div>
+        </div><br>
+    </div>
+</div>
+</body>
+</html>

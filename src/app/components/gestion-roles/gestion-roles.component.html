@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https//:kit.fontawesome.com/2c36e9b7b1.js"></script>
+</head>
+<body >
+    <h2 class="titulo">Roles</h2>
+    <p class="parrafo">Desde aqui puedes cambiar los roles de tus usuarios</p>
+    <button class="btn btn-primary">Agregar rol</button>
+    
+    <main>
+        <table class="table tablefa-stack table-bordered">
+         
+          <thead>
+             
+             <tr>
+               <th scope="col">USUARIO</th>
+               <th scope="col">ROL</th>
+               <th  colspan="2" scope="col">ACCION</th>
+             </tr>
+ 
+         </thead>
+         <tbody>
+             <tr *ngFor="let rol">
+                 <td>{{rol.usuario}}</td>
+                 <td>{{rol.rol}}</td>
+                 <td><a class="btn btn-success" href="">Editar</a> 
+                 <a class="btn btn-danger" href="">Eliminar</a> </td>
+                 
+               </tr>
+               
+             </tbody>
+            
+        
+         
+ 
+        
+        </table>
+     </main>
+</body>
+</html>

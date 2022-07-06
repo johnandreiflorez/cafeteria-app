@@ -1,0 +1,36 @@
+.card {
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24);
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    display:-webkit-inline-flex;
+    grid-template-columns: 150px 150px 150px;
+
+ 
+}
+img{
+    width: 120px;
+    text-align: center;
+   
+}
+:root{
+    box-sizing: border-box;
+    
+
+}
+
+.button{
+    border-radius: 50%;
+    margin-bottom: 3px;
+    display:inline-table;
+    opacity: .65;
+}
+.numero{
+    font-size: larger;
+    font-family:monospace;
+}

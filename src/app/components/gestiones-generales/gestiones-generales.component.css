@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  background: #cec9db;
+}
+.sidebar {
+    position: absolute;
+    width: 20%;
+    height: 100vh;
+    background: #a2bfde;
+    font-size: 20px;
+  }
+
+  .nav {
+    position: relative;
+    margin: 0 0%;
+    text-align: left;
+    top: 10%;
+  
+    font-weight:inherit;
+    width: max-content;
+  }
+  .nav ul {
+    list-style: none;
+    
+    
+}
+
+li {
+    position: relative;
+}
+
+body{
+    background: url(../../../assets/imagenes/fondo6.jpg) no-repeat center;
+    
+}
+
+.imagen{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h1{
+   text-align: center;
+}
+
+
+
+
+
+      

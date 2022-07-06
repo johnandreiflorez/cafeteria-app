@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img"></div>
+                <h1>Iniciar sesion</h1>
+                <img class="imagen"src="../../../assets/imagenes/avatar4.png"/><br>
+
+                  <form class="col-12 container">
+                    <app-inicio (inicio)="logIn($event)"></app-inicio>
+                    <app-registro></app-registro>
+                    
+                
+                  
+                 
+                 
+                </form>
+             
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Login</title>
+  
+
+</head>
+<body>
+  <div class="container">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label" >Nombre de usuario</label><br>
+        <input [(ngModel)] = "user.userName" type="userName"  required size="40">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1">Contraseña</label><br>
+        <input [(ngModel)] = "user.pass" type="password"  required size="40"><br><br>
+        <button class="btn btn-primary" (click) = "logIn()">Ingresar</button>
+      </div>
+    </div>
+</body>
+</html>-->
+
+
+
+
+
+

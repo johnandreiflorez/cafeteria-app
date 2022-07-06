@@ -1,0 +1,12 @@
+
+<div class="register">
+    <form class="custom-form" method="post">
+      <h1>Registro</h1>
+      <input type="name" [(ngModel)]="user.name"  name="name"  placeholder="Escriba el nombre"required="required" />
+
+      <input type="email" [(ngModel)]="user.email"  name="email"  placeholder="Escriba el email"required="required" />
+      <input type="password" [(ngModel)]="user.password" name="password" placeholder="Escriba la contraseña"required="required"/>
+      <input type="password" [(ngModel)]="user.password" name="password" placeholder="Repita la contraseña" required="required"/>
+      <button type="submit" class="btn btn-primary" (click)="Registro()">Registrarse</button>
+    </form>
+  </div>

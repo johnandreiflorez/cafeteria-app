@@ -1,0 +1,13 @@
+<div class="card col-6 col-sm-4">
+  <img [src]="producto.imagen" [alt]="producto.nombre" />
+  <h4>{{ producto.nombre }}</h4>
+  <p>{{ producto.descripcion }}<br />{{ producto.precio | number: "1.000" }}</p>
+
+  <button class="btn btn-primary" (click)="ingresarProducto()">
+    Agregar al carrito
+  </button>
+  <button class="btn btn-success button" (click)="mas1()">+</button>
+
+  <label class="numero">1</label>
+  <button class="btn btn-danger button" (click)="menos1()">-</button>
+</div>

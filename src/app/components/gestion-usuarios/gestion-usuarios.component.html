@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de usuarios</title>
+</head>
+<body>
+    
+    <h2 class="titulo">Gestión de usuarios</h2>
+    <p class="parrafo">Desde aqui puedes gestionar los usuarios</p>
+    <button class="btn btn-primary">Agregar usuario</button>
+    <app-agregar-usuario></app-agregar-usuario>
+    <main>
+        <table class="table table-bordered" >
+            <thead>
+              <tr>
+                <th  scope="col">NOMBRE </th>
+                <th  scope="col">EMAIL</th>
+                <th  scope="col">PASSWORD</th>
+                <th  colspan= "2"scope="col">ACCION</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let usuario">
+                <th>{{usuario.name}}</th>
+                 <th>{{usuario.email}}</th>
+                 <th>{{usuario.password}}</th>
+                 <td><a class="btn btn-success" href="">Editar</a> 
+                    <a class="btn btn-danger" href="">Eliminar</a> </td>
+                
+              </tr>
+              
+              
+                
+            </tbody>
+          </table>
+
+
+       
+     </main>
+</body>
+</html>
