@@ -1,0 +1,43 @@
+body{
+    background: url(../../../assets/imagenes/fondo6.jpg) no-repeat center fixed;
+    margin: 6px 6px 6px 6px;
+}
+.main-section{
+    margin: 0 auto;
+   
+    
+    
+}
+
+.modal-content{
+    background-color: #a2bfde;
+    opacity: .95;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484 ;
+   
+
+}
+.user-img{
+    margin-top: -30px;
+    margin-bottom: 40px;
+    
+}
+
+.user-img img{
+    width: 20px;
+    height: 20px;
+  
+    
+}
+h1{
+    text-align: center;
+    font-size:xx-large;
+    font-style: italic;
+}
+form-group input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+   
+  
+}

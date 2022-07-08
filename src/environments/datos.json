@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Helado",
+    "descripcion": "Delicioso helado de fresa",
+    "precio": 6.500
+  },
+  
+  { "nombre":"Cafe",
+    "descripcion":"cafe",
+    "precio":3200
+
+  },
+  { "nombre":"panqueques",
+    "descripcion":"panqueques",
+    "precio": 10000
+
+  },
+
+  { "nombre":"Ensalada",
+    "descripcion":"Ensalada",
+    "precio":7500
+
+  },
+
+  { "nombre":"Combo de pollo",
+    "descripcion":"combo de pollo",
+    "precio":15000
+
+  }
+  
+
+]

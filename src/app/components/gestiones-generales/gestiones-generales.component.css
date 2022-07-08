@@ -1,0 +1,61 @@
+
+
+html {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  background: #cec9db;
+}
+.sidebar {
+    position: absolute;
+    width: 20%;
+    height: 100vh;
+    background: #1c2e42;
+    font-size: 20px;
+  }
+
+  .nav .color {
+    position: relative;
+    margin: 0 0%;
+    text-align: left;
+    top: 10%;
+    color: white;
+    font-weight:inherit;
+    width: max-content;
+  }
+  .nav ul {
+    list-style: none;
+    
+    
+}
+
+li {
+    position: relative;
+}
+
+
+
+.imagen{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin: 40px 30px 20px 30px;
+    
+    
+}
+
+h1{
+   text-align: center;
+   margin: 10px 50px 50px 60px;
+   float:right;
+
+  
+   
+}
+
+
+
+
+
+
+
+      

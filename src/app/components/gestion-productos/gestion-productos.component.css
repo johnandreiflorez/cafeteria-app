@@ -1,0 +1,30 @@
+table:last-child{
+  text-align: center;
+}
+tr>td>img{
+    width: 10em;
+    height: 10em;
+}
+td>a{
+    margin-left: 3px;
+}
+body{
+    margin-right: 20px;
+    margin-left: 20px
+  }
+
+  .titulo{
+    text-align: center;
+    font-size:50px;
+    font-family:fantasy;
+    color: rgb(12, 13, 13);
+    font-style: unset;
+   
+   
+
+  }
+
+  .parrafo{
+    font-size: 30px;
+  }
+

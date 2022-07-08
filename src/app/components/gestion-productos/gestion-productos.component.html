@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de productos</title>
+</head>
+<body>
+    <header>
+        <h2 class="titulo">Gestion de los productos</h2>
+        <p class="parrafo">Desde aquí puedes gestionar los productos</p>
+        <button class="btn btn-primary">Agregar producto</button>
+    </header>
+    <main>
+       <table class="table table-bordered table-striped "  >
+        
+         <thead>
+            
+            <tr>
+              <th scope="col">NOMBRE </th>
+              <th scope="col">DESCRIPCION</th>
+              <th scope="col">PRECIO</th>
+              <th scope="col">CANTIDAD</th>
+              <th scope="col">IMAGEN</th>
+              <th colspan="2" scope="col">ACCTION </th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let producto of productos">
+                <td>{{producto.nombre}} </td>
+                <td>{{producto.descripcion}}</td>
+                <td>${{producto.precio | number: "1.000"}}</td>
+                <td>{{producto.cantidad}}</td>
+                <td><img [src]="producto.imagen" [alt]="producto.nombre"></td>
+                <td><a class="btn btn-success" href="">Editar</a> 
+                <a class="btn btn-danger"href="">Eliminar</a> </td>
+              </tr>
+            </tbody>
+       
+       </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+   
+</head>
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img"></div>
+                <h1>Registro</h1>
+                <img class="imagen"src="../../../assets/imagenes/avatar4.png"/><br>
+
+                  <form class="col-12 container">
+                    <div class="form-group" id="user-group">
+                      <input [(ngModel)] = "user.name" type="userName" class="form-control" placeholder="Ingrese el nombre" name="name">
+                      <input [(ngModel)] = "user.email" type="userEmail" class="form-control" placeholder="Ingrese email" name="email">
+                      
+                    </div>
+                    <div class="form-group" id="contrasena-group">
+                      <input [(ngModel)] = "user.password" type="password" class="form-control" placeholder="Ingrese la contraseña" name="password">
+                      <input [(ngModel)] = "user.repeatPassword" type="password" class="form-control" placeholder="Repite la contraseña" name="repeatPassword">
+                      <button type="submit" class="btn btn-primary" (click) = "registro()">Registrarse</button><br>
+                    </div><br>
+                    
+                    
+                
+                  
+                 
+                 
+                </form>
+             
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
