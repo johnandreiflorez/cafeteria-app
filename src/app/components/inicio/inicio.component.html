@@ -1,8 +1,11 @@
-<div class="form-group" id="user-group">
-    <input [(ngModel)] = "user.email" type="userName" class="form-control" placeholder="Ingrese email" name="email">
-
+<form [formGroup]="innerForm">
+  <div class="form-group" id="user-group">
+    <input [(ngModel)]="user.email" ngModel formControlName="Email" type="userName" class="form-control" placeholder="Ingrese email" name="email" >
   </div>
   <div class="form-group" id="contrasena-group">
-    <input [(ngModel)] = "user.password" type="password" class="form-control" placeholder="Ingrese la contraseña" name="password">
-    <button type="submit" class="btn btn-primary" (click) = "logIn()">Ingresar</button><br>
+    <input [(ngModel)]="user.password" ngModel formControlName="Password" type="password" class="form-control" placeholder="Ingrese la contraseña"
+      name="password">
+    <button type="submit" class="btn btn-primary" (click)="logIn()">Ingresar</button><br>
   </div><br>
+  <p class="error">{{error}}</p>
+</form>
